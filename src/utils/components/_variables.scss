@@ -1,0 +1,9 @@
+$primary:rgba(20, 33, 61, 1);
+;
+
+$theme-colors: (
+  "primary": $primary,
+);
+
+@import "~bootstrap/scss/bootstrap";
+
