@@ -1,6 +1,24 @@
-.header{
+.header-container{
     background-color: $primary;
+    padding: 1rem 12.5rem 1rem 12.5rem;
+    gap: 1rem;
+    
     p{
         margin: 0;
     }
+    
 }
+.up-menu{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1.5rem;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-size: 0.93rem;
+    font-weight: 600;
+    line-height: 1.125rem;
+    text-align: left;
+}
+
+
+
