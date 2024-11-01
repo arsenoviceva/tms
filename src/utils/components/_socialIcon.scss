@@ -1,0 +1,27 @@
+.social-rating-div {
+  padding: 16px 18px 16px 18px;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  p {
+    margin: 0;
+  }
+}
+.social-rating-inner-div {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rating-logo {
+  width: 40px;
+  height: 40px;
+}
+.ratings {
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #00143c;
+}

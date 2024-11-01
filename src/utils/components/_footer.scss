@@ -1,0 +1,46 @@
+.footer-container {
+  background-color: $info;
+  padding: 0.75rem 12.5rem 0.75rem 12.5rem;
+}
+.icon-col {
+  padding: 0 24px 0 24px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.icon-rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  background-color: $primary;
+  border-radius: 16px;
+}
+.icon-col-text {
+  justify-content: space-between;
+  //styleName: Trafft Landing/H4;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: $primary;
+}
+.small-text {
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22.1px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  opacity: 60%;
+}
+.social-icons-col {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
