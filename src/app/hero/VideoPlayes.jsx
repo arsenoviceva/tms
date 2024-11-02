@@ -16,7 +16,7 @@ export const VideoPlayer = ({ videoSrc }) => {
   };
 
   return (
-    <div style={{ position: "relative", display: "inline-block" }}>
+    <div className="video-player-div">
       <video
         ref={videoRef}
         src={videoSrc}

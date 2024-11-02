@@ -87,4 +87,17 @@
   right: 0%;
   width: 120px;
   height: 106px;
+  min-height: fit-content;
+}
+.icon-close {
+  position: absolute;
+  right: 1%;
+  top: 2%;
+  background-color: white;
+  border-radius: 24px;
+  padding: 4px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  cursor: pointer;
 }

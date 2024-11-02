@@ -1,3 +1,40 @@
-.navbar-nav {
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-link {
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
   color: white;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: white;
+}
+.nav-link-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px 4px 8px;
+  gap: 4px;
+  cursor: pointer;
+}
+.navbar-button {
+  display: flex;
+  justify-content: center;
+  background-color: $secondary;
+  color: $primary;
+  padding: 12px 24px 12px 24px;
+  border-radius: 5px;
+  border: 0;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  width: 100%;
 }

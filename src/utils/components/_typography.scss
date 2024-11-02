@@ -1,6 +1,26 @@
-.cursor-pointer{
-    cursor: pointer;
+.cursor-pointer {
+  cursor: pointer;
 }
-.bg-orange{
-    color: orange;
+.bg-orange {
+  color: orange;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-12 {
+  gap: 12px;
+}
+.p-24 {
+  padding: 24px;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.p-12 {
+  padding: 12px;
+}
+.rounded-12 {
+  border-radius: 12px;
 }

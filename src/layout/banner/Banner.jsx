@@ -1,4 +1,5 @@
 import { Row, Col, Container } from "react-bootstrap";
+import { Countdown } from "./Countdown";
 
 export const Banner = () => {
   return (
@@ -11,26 +12,10 @@ export const Banner = () => {
       </div>
       <div className="countdown">
         <p className="countdown-title">sale up to 60% off</p>
-        <div className="countdown-block">
-          <div>
-            <p className="countdown-number">7</p>
-            <p className="countdown-text"> Days</p>
-          </div>
-          <div>
-            <p className="countdown-number">7</p>
-            <p className="countdown-text"> Hours</p>
-          </div>
-          <div>
-            <p className="countdown-number">7</p>
-            <p className="countdown-text"> Min</p>
-          </div>
-          <div>
-            <p className="countdown-number">7</p>
-            <p className="countdown-text"> Sec</p>
-          </div>
-        </div>
+        <Countdown duration={7 * 24 * 60 * 60 * 1000} />
       </div>
       <button className="banner-button"> Shop Now</button>
+      <img src="../../images/icon_close.png" className="icon-close" />
       <img src="../../images/eclipser.png" className="eclipse-right" />
     </div>
   );
