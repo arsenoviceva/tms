@@ -4,9 +4,9 @@ import { VideoPlayer } from "./VideoPlayes";
 
 export const Hero = () => {
   return (
-    <Container fluid className="hero-container">
+    <Container className="py-5">
       <Row>
-        <Col lg={6} className="hero-text">
+        <Col xl={6} className="hero-text">
           <Badge className="badge-hero">
             {" "}
             White label booking software for agencies
@@ -35,7 +35,7 @@ export const Hero = () => {
           </Row>
         </Col>
         <Col
-          lg={6}
+          xl={6}
           className="d-flex align-items-center justify-content-center"
         >
           <VideoPlayer videoSrc={"../../images/video.mp4"} />

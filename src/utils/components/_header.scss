@@ -1,24 +1,88 @@
-.header-container{
-    background-color: $primary;
-    padding: 1rem 12.5rem 1rem 12.5rem;
-    gap: 1rem;
-    
-    p{
-        margin: 0;
+.header-container {
+  background-color: $primary;
+  //   padding: 1rem 12.5rem 1rem 12.5rem;
+  gap: 1rem;
+
+  p {
+    margin: 0;
+  }
+}
+.up-menu {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1.5rem;
+}
+
+.header-cta-button {
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-size: 0.93rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  @extend .text-white, .text-decoration-none;
+  &:hover {
+    @extend .text-secondary;
+  }
+}
+
+.header-items {
+  @extend .d-flex,
+    .align-items-lg-center,
+    .justify-content-lg-end,
+    .text-white,
+    .list-unstyled;
+
+  &.mobile {
+    @extend .flex-column;
+  }
+
+  .header-item {
+    @extend .me-3, .cursor-pointer;
+    &.mobile {
+      @extend .text-primary, .cursor-pointer;
+      font-family: "Neue Haas Grotesk Display Pro";
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20.8px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      padding: 12px 0 12px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
     }
-    
-}
-.up-menu{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    gap: 1.5rem;
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
-    font-size: 0.93rem;
-    font-weight: 600;
-    line-height: 1.125rem;
-    text-align: left;
+  }
 }
 
-
-
+.hamburger-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+  @extend .bg-white;
+}
+.footer-hamburger {
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
+  padding: 0 12px 0 12px;
+}
+.btn-signup {
+  border: 1px solid $primary;
+  color: #14213d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  padding: 12px 0 12px 0;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  border-radius: 5px;
+}
