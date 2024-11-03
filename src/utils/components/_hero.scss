@@ -19,6 +19,7 @@
   flex-direction: column;
   gap: 40px;
 }
+
 .hero-plain-text {
   font-size: 1.25rem;
   font-weight: 500;
@@ -35,4 +36,15 @@
   text-align: center;
   color: #808a9e;
   padding-top: 8px;
+}
+
+@media (max-width: 991px) {
+  .hero-plain-text {
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .headline {
+    text-align: center;
+  }
 }

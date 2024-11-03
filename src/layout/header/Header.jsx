@@ -49,7 +49,7 @@ export const Header = () => {
           <Col
             md={6}
             lg={12}
-            className="d-none d-lg-flex justify-content-end mb-3"
+            className="d-none d-xl-flex justify-content-end mb-3"
           >
             <a href="#" className="header-cta-button me-2">
               Login
@@ -58,7 +58,7 @@ export const Header = () => {
               Sign up
             </a>
           </Col>
-          <div className="col-6 col-xl-2 d-flex align-items-center">
+          <div className="col-6 col-lg-2 d-flex align-items-center">
             <img src="../../images/logoeclipse.png" />
             <img
               src="../../images/oasis.png"

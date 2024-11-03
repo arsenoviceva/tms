@@ -74,7 +74,9 @@ export const Dropdown = () => {
             >
               <div>
                 <p> Can't find your industry?</p>
-                <p> Book a demo to see if we're match!</p>
+                <p className="  fw-normal  ">
+                  Book a demo to see if we're match!
+                </p>
               </div>
               <button className="dropdown-button">BOOK A DEMO</button>
             </Col>

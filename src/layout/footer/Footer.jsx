@@ -9,7 +9,7 @@ export const Footer = () => {
           <Col xl={3}>
             <div className="d-none d-xl-flex icon-col">
               <div className="icon-rectangle">
-                <img src="../../images/icon_vector.png" />
+                <img src="../../images/icon_vector.png" alt="icon" />
               </div>
               <div className="icon-col-text">
                 <p className="m-0 d-flex align-items-center justify-content-center">
@@ -21,12 +21,14 @@ export const Footer = () => {
               </div>
             </div>
             <div className="d-xl-none">
-              <h5 className="text-center">Over 15, 500 global customers</h5>
+              <h5 className="text-center m-0 fw-bold">
+                OVER 15, 000 GLOBAL CUSTOMERS
+              </h5>
             </div>
           </Col>
           <Col xl={9}>
-            <Row className="g-3">
-              <Col lg={6} xl={3}>
+            <Row className="g-3 pb-3">
+              <Col md={6} xl={3}>
                 <SocialRatingIcons
                   logo={"../../images/Group1238.png"}
                   icon={"../../images/Vector.png"}
@@ -34,7 +36,7 @@ export const Footer = () => {
                   rating={"5.0"}
                 />
               </Col>
-              <Col lg={6} xl={3}>
+              <Col md={6} xl={3}>
                 <SocialRatingIcons
                   logo={"../../images/Ratinglogos.png"}
                   icon={"../../images/Star1.png"}
@@ -43,7 +45,7 @@ export const Footer = () => {
                 />
               </Col>
 
-              <Col lg={6} xl={3}>
+              <Col md={6} xl={3}>
                 <SocialRatingIcons
                   logo={"../../images/Ratinglogos(1).png"}
                   icon={"../../images/Group1240.png"}
@@ -51,7 +53,7 @@ export const Footer = () => {
                   rating={"Excellent"}
                 />
               </Col>
-              <Col lg={6} xl={3}>
+              <Col md={6} xl={3}>
                 <SocialRatingIcons
                   logo={"../../images/Ratinglogos(2).png"}
                   icon={"../../images/Vector.png"}
